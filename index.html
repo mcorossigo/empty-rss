@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <link rel="authors" href="/humans.txt" />
 
@@ -9,10 +10,20 @@
 
   <link rel="alternate" title="Empty" href="/empty.rss" type="application/rss+xml" />
   <link rel="alternate" title="Something" href="/something.rss" type="application/rss+xml" />
+  <link rel="alternate" title="Invalid" href="/invalid.rss" type="application/rss+xml" />
+
 </head>
 
 <body>
-    <a href="empty.rss">Empty RSS</a>
-    <a href="something.rss">Something RSS</a>
+  <h1>RSS</h1>
+  <a href="empty.rss">Empty RSS</a><a
+    href="https://validator.w3.org/feed/check.cgi?url=https%3A//mcorossigo.github.io/empty-rss/empty.rss"><img
+      src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+  <br>
+  <a href="something.rss">Something RSS</a><a
+    href="https://validator.w3.org/feed/check.cgi?url=https%3A//mcorossigo.github.io/empty-rss/something.rss"><img
+      src="valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+  <br><a href="invalid.rss">Invalid RSS</a>
 </body>
+
 </html>
